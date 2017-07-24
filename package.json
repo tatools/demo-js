@@ -1,0 +1,24 @@
+{
+  "name": "crossbrowser_tests",
+  "version": "0.0.1",
+  "description": "crossbrowser testing project",
+  "scripts": {
+    "test": "protractor test_config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tatools/demo-js.git"
+  },
+  "license": "Apache License 2.0",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/tatools/demo-js/issues"
+  },
+  "homepage": "https://tatools.github.io/",
+  "dependencies": {
+    "browserstack-webdriver": "^2.41.1",
+    "jasmine-spec-reporter": "^2.4.0",
+    "protractor": "latest",
+    "protractor-jasmine2-screenshot-reporter": "^0.3.1"
+  }
+}
